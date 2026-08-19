@@ -1,0 +1,26 @@
+streamlit
+
+# Utilities
+numpy
+pandas
+scikit-learn
+
+# Face recognition
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
+# Database / Security
+supabase
+bcrypt
+
+# QR
+segno
+
+# Image
+pillow
+
+# Audio / Voice
+librosa
+webrtcvad-wheels
+resemblyzer
