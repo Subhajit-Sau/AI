@@ -84,7 +84,7 @@ def student_dashboard():
                 ],
                 footer_callback=unenroll_button
             )
-    footer_dashboard()
+    # footer_dashboard()
 
 
 def student_screen():
@@ -185,4 +185,4 @@ def student_screen():
 
 
         
-    footer_dashboard()
+    # footer_dashboard()
