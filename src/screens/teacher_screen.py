@@ -89,7 +89,7 @@ def teacher_dashboard():
     
 
 
-    footer_dashboard()
+    # footer_dashboard()
 
 def teacher_tab_take_attendance():
     teacher_id = st.session_state.teacher_data['teacher_id']
@@ -334,7 +334,7 @@ def teacher_screen_login():
         if st.button('Register Instead', type="primary", icon=':material/passkey:', width='stretch'):
             st.session_state.teacher_login_type = 'register'
 
-    footer_dashboard()
+    # footer_dashboard()
 
 
 
@@ -399,4 +399,4 @@ def teacher_screen_register():
         if st.button('Login Instead', type="primary", icon=':material/passkey:', width='stretch'):
             st.session_state.teacher_login_type = 'login'
 
-    footer_dashboard()
+    # footer_dashboard()
